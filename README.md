@@ -9,7 +9,7 @@ git clone https://github.com/limpens/brg25.git
   
 cd buildroot  
 mkdir output  
-echo "BR2_EXTERNAL ?= /<FULL-PATH-TO>/brg25" > .br-external  
+echo "BR2_EXTERNAL ?= /FULL-PATH-TO/brg25" > .br-external  
 cd ..  
 make arietta_defconfig  
 make  
