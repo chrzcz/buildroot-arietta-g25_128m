@@ -8,7 +8,7 @@ AT91BOOT_INSTALL_TARGET = NO
 AT91BOOT_INSTALL_IMAGES = YES
 
 define AT91BOOT_BUILD_CMDS
-  $(MAKE1) CC="$(TARGET_CC)" LD="$(TARGET_LD)" -C $(@D) arietta-256m_defconfig
+  $(MAKE1) CC="$(TARGET_CC)" LD="$(TARGET_LD)" -C $(@D) arietta-128m_defconfig
   $(MAKE1) CROSS_COMPILE=$(TARGET_CROSS) -C $(@D)
 endef
 
