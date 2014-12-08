@@ -24,10 +24,7 @@
 	};
 
 	memory {
-		/* 128 MB Aria G25 version */
-		/* reg = <0x20000000 0x8000000>; */
-		/* 256 MB Aria G25 version */
-		reg = <0x20000000 0x10000000>; 
+		reg = <0x20000000 0x8000000>;
 	};
 
         clocks {
