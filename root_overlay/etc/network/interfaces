@@ -4,8 +4,6 @@ iface lo inet loopback
 
 auto wlan0
 iface wlan0 inet manual
-pre-up modprobe rt2800usb
 pre-up /etc/network/pre-wlan.sh
 post-down killall -q udhcpc
 post-down killall -q wpa_supplicant
-post-down rmmod rt2800usb
